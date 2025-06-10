@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Mobil</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Detail Mobil</h1>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="car-detail">
+                <h2 id="car-title">Gran Max</h2>
+                <img src="gambar/pickup1.jpg" alt="Gran Max" class="car-image">
+                <p id="car-description">Mobil premium dengan kenyamanan maksimal.</p>
+                <p id="car-price">Rp 4.500.000/hari</p>
+                <button id="sewa-mobil" class="rent-btn">SEWA MOBIL INI</button>
+            </div>
+        </div>
+    </main>
+
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <h3>Ringkasan Sewa</h3>
+            <p id="modal-car-name">Toyota Land Cruiser</p>
+            <p id="modal-car-price">Rp 4.500.000/hari</p>
+            <p id="modal-total-price">Total yang harus dibayar: Rp 4.500.000</p>
+            <div class="modal-actions">
+                <button id="cancel-btn" class="btn-cancel">Batal</button>
+                <button id="continue-btn" class="btn-continue">Lanjutkan</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
